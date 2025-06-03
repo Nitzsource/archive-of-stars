@@ -92,4 +92,26 @@ body {
   50% { opacity: 0.4; }
   100% { opacity: 1; }
 }
+.qr {
+  text-align: center;
+  margin-top: 60px;
+  opacity: 0.2;
+  transition: opacity 1s ease;
+}
+
+.qr:hover {
+  opacity: 1;
+}
+
+.qr-line {
+  color: #999;
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.qr-code {
+  width: 140px;
+  filter: brightness(0.8);
+}
 
